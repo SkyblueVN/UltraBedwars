@@ -1,26 +1,26 @@
 #Bedwars1058-RandomItems config
-#Format 'ITEM: min-max'
+#Format '<item>:<display-name>:<min>-<max>'
 group-list:
 - RandomItems
 items-list:
   on-regularkill:
-  - IRON_INGOT:20-30
-  - GOLD_INGOT:2-3
+  - IRON_INGOT:&fIron Ingot:20-30
+  - GOLD_INGOT:&eGold Ingot:2-3
   on-beddestroy:
-  - IRON_INGOT:20-30
-  - GOLD_INGOT:2-3
+  - IRON_INGOT:&fIron Ingot:20-30
+  - GOLD_INGOT:&eGold Ingot:2-3
   on-generatorpickup:
-  - IRON_INGOT:20-30
-  - GOLD_INGOT:2-3
+  - IRON_INGOT:&fIron Ingot:20-30
+  - GOLD_INGOT:&eGold Ingot:2-3
   on-finalkill:
-  - IRON_INGOT:20-30
-  - GOLD_INGOT:2-3
+  - IRON_INGOT:&fIron Ingot:20-30
+  - GOLD_INGOT:&eGold Ingot:2-3
   on-shopbuy:
-  - IRON_INGOT:20-30
-  - GOLD_INGOT:2-3
+  - IRON_INGOT:&fIron Ingot:20-30
+  - GOLD_INGOT:&eGold Ingot:2-3
   on-upgrade:
-  - IRON_INGOT:20-30
-  - GOLD_INGOT:2-3
+  - IRON_INGOT:&fIron Ingot:20-30
+  - GOLD_INGOT:&eGold Ingot:2-3
 
 event:
   on-regularkill: true
