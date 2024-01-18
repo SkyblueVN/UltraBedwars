@@ -3,22 +3,22 @@
 group-list:
 - RandomItems
 items-list:
-  'on-regularkill':
+  on-regularkill:
   - IRON_INGOT:20-30
   - GOLD_INGOT:2-3
-  'on-beddestroy':
+  on-beddestroy:
   - IRON_INGOT:20-30
   - GOLD_INGOT:2-3
-  'on-generatorpickup':
+  on-generatorpickup:
   - IRON_INGOT:20-30
   - GOLD_INGOT:2-3
-  'on-finalkill':
+  on-finalkill:
   - IRON_INGOT:20-30
   - GOLD_INGOT:2-3
-  'on-shopbuy':
+  on-shopbuy:
   - IRON_INGOT:20-30
   - GOLD_INGOT:2-3
-  'on-upgrade':
+  on-upgrade:
   - IRON_INGOT:20-30
   - GOLD_INGOT:2-3
 
