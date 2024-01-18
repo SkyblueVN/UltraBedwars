@@ -25,12 +25,12 @@ items-list:
   - GOLD_INGOT:&eGold Ingot:2-3
 #Available placeholder: {amount}, {display-name}, {player}, {enemy} (only for combat event!).
 message:
-  on-regularkill: '&aYou received x%{amount}% %{display-name}% &aby kill enemies!'
-  on-beddestroy: '&aYou received x%{amount}% %{display-name}% &aby &c&lBed Destroying &aenemies!'
-  on-generatorpickup: '&aYou received x%{amount}% %{display-name}% &aby collecting from generator!'
-  on-finalkill: '&aYou received x%{amount}% %{display-name}% &aby &b&lFINAL KILL &aenemies!'
-  on-shopbuy: '&aYou received x%{amount}% %{display-name}% &aby buying items!'
-  on-upgrade: '&aYou received x%{amount}% %{display-name}% &aby &b&lUPGRADING!'
+  on-regularkill: '&aYou received x{amount} {display-name} &aby kill enemies!'
+  on-beddestroy: '&aYou received x{amount} {display-name} &aby &c&lBed Destroying &aenemies!'
+  on-generatorpickup: '&aYou received x{amount} {display-name} &aby collecting from generator!'
+  on-finalkill: '&aYou received x{amount} {display-name} &aby &b&lFINAL KILL &aenemies!'
+  on-shopbuy: '&aYou received x{amount} {display-name} &aby buying items!'
+  on-upgrade: '&aYou received x{amount} {display-name} &aby &b&lUPGRADING!'
 #The chance that player can get random items when event is called (in '%')
 chance:
   on-regularkill: 60
