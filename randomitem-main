@@ -1,7 +1,9 @@
 #Bedwars1058-RandomItems config
 #Format '<item>:<display-name>:<min>-<max>'
+#You can type multiple group here
 group-list:
 - RandomItems
+#Item that player can receive RANDOMIZELY
 items-list:
   on-regularkill:
   - IRON_INGOT:&fIron Ingot:20-30
@@ -21,14 +23,15 @@ items-list:
   on-upgrade:
   - IRON_INGOT:&fIron Ingot:20-30
   - GOLD_INGOT:&eGold Ingot:2-3
-
-event:
-  on-regularkill: true
-  on-beddestroy: true
-  on-generatorpickup: true
-  on-finalkill: true
-  on-shopbuy: true
-  on-upgrade: true
+#Available placeholder: {item}, {display-name}, {player}, {enemies} (only for combat event!).
+message:
+  on-regularkill: '&aYou received x%{item}% %{display-name}% &aby kill enemies!'
+  on-beddestroy: '&aYou received x%{item}% %{display-name}% &aby &c&lBed Destroying &aenemies!'
+  on-generatorpickup: '&aYou received x%{item}% %{display-name}% &aby collecting from generator!'
+  on-finalkill: '&aYou received x%{item}% %{display-name}% &aby &b&lFINAL KILL &aenemies!'
+  on-shopbuy: '&aYou received x%{item}% %{display-name}% &aby buying items!'
+  on-upgrade: '&aYou received x%{item}% %{display-name}% &aby &b&lUPGRADING!'
+#The chance that player can get random items when event is called (in '%')
 chance:
   on-regularkill: 60
   on-beddestroy: 100
@@ -36,3 +39,20 @@ chance:
   on-finalkill: 100
   on-shopbuy: 10
   on-upgrade: 100
+#The amount of items that player can get randomizely when event is called
+amount:
+  on-regularkill: 1
+  on-beddestroy: 2
+  on-generatorpickup: 1
+  on-finalkill: 2
+  on-shopbuy: 1
+  on-upgrade: 2
+#Decide will the player can get items when event is called
+event:
+  on-regularkill: true
+  on-beddestroy: true
+  on-generatorpickup: true
+  on-finalkill: true
+  on-shopbuy: true
+  on-upgrade: true
+
