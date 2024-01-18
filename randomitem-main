@@ -23,7 +23,7 @@ items-list:
   on-upgrade:
   - IRON_INGOT:&fIron Ingot:20-30
   - GOLD_INGOT:&eGold Ingot:2-3
-#Available placeholder: {amount}, {display-name}, {player}, {enemies} (only for combat event!).
+#Available placeholder: {amount}, {display-name}, {player}, {enemy} (only for combat event!).
 message:
   on-regularkill: '&aYou received x%{amount}% %{display-name}% &aby kill enemies!'
   on-beddestroy: '&aYou received x%{amount}% %{display-name}% &aby &c&lBed Destroying &aenemies!'
