@@ -1,13 +1,13 @@
 #Bedwars1058-RandomItems config
-#Format '<item>:<display-name>:<min>-<max>'
-#You can type multiple group here
+#Format '[type]::[material]::<display-name:true/false>::<lore-1>|<lore-2>::<tag:tag>::[min-max]'
+#You can enter multiple group here
 group-list:
 - RandomItems
 #Item that player can receive RANDOMIZELY
 items-list:
   on-regularkill:
-  - IRON_INGOT:&fIron Ingot:20-30
-  - GOLD_INGOT:&eGold Ingot:2-3
+  - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::20-30
   on-beddestroy:
   - IRON_INGOT:&fIron Ingot:20-30
   - GOLD_INGOT:&eGold Ingot:2-3
