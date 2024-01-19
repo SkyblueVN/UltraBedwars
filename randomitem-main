@@ -1,9 +1,17 @@
 #Bedwars1058-RandomItems config
 #Format '[type]::[material]::<display-name:true/false>::<lore-1>|<lore-2>::<tag:tag>::[min-max]'
+# [type]: ITEM, CUSTOM (will be added soon!).
+# [material]: Iitem material (for ITEM), built-in material (for CUSTOM).
+# <displayname>: The item's displayname, <true/false>: the given item will be renamed.
+# <lore>: item's lore (you can enter a new line by use "|").
+# <tag:tag>: Currently supported "data: <value>" (will be added more soon!).
+# [min-max]: The number of items that will be provided to the player (eg: 10-20). For const amount just enter min = max (eg: 2-2).
+# []: Required, <>: optional (If you dont want enter the optional, just enter "null").
 #You can enter multiple group here
 group-list:
 - RandomItems
 #Item that player can receive RANDOMIZELY
+#Items list need a reload to update
 items-list:
   on-regularkill:
   - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
@@ -24,6 +32,8 @@ items-list:
   - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
   - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
 #Available placeholder: {amount}, {display-name}, {player}, {enemy} (only for combat event!).
+#Enable: Will player receive the message
+#Message and below sections is update after you save the file. Be carefully!
 message:
   on-regularkill:
     Enable: true
