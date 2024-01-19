@@ -57,9 +57,9 @@ message:
     Enable: true
     Message:
     - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
-    - '&f&l                       BedWars RandomItems'
+    - '&f&l                     BedWars RandomItems'
     - ''
-    - '&e&l                 RandomItems mode has been enabled!'
+    - '&e&l             RandomItems mode has been enabled!'
     - ''
     - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 #The chance that player can get random items when event is called (in '%')
