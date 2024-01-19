@@ -25,12 +25,24 @@ items-list:
   - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
 #Available placeholder: {amount}, {display-name}, {player}, {enemy} (only for combat event!).
 message:
-  on-regularkill: '&aYou received x{amount} {display-name} &aby kill enemies!'
-  on-beddestroy: '&aYou received x{amount} {display-name} &aby &c&lBed Destroying &aenemies!'
-  on-generatorpickup: '&aYou received x{amount} {display-name} &aby collecting from generator!'
-  on-finalkill: '&aYou received x{amount} {display-name} &aby &b&lFINAL KILL &aenemies!'
-  on-shopbuy: '&aYou received x{amount} {display-name} &aby buying items!'
-  on-upgrade: '&aYou received x{amount} {display-name} &aby &b&lUPGRADING!'
+  on-regularkill:
+    Enable: true
+    Message: '&aYou received x{amount} {display-name} &aby kill enemies!'
+  on-beddestroy:
+    Enable: true
+    Message: '&aYou received x{amount} {display-name} &aby &c&lBed Destroying &aenemies!'
+  on-generatorpickup:
+    Enable: true
+    Message: '&aYou received x{amount} {display-name} &aby collecting from generator!'
+  on-finalkill:
+    Enable: true
+    Message: '&aYou received x{amount} {display-name} &aby &b&lFINAL KILL &aenemies!'
+  on-shopbuy:
+    Enable: true
+    Message: '&aYou received x{amount} {display-name} &aby buying items!'
+  on-upgrade:
+    Enable: true
+    Message: '&aYou received x{amount} {display-name} &aby &b&lUPGRADING!'
 #The chance that player can get random items when event is called (in '%')
 chance:
   on-regularkill: 60
