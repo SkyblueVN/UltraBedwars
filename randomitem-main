@@ -7,22 +7,22 @@ group-list:
 items-list:
   on-regularkill:
   - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
-  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
   on-beddestroy:
-  - IRON_INGOT:&fIron Ingot:20-30
-  - GOLD_INGOT:&eGold Ingot:2-3
+  - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
   on-generatorpickup:
-  - IRON_INGOT:&fIron Ingot:20-30
-  - GOLD_INGOT:&eGold Ingot:2-3
+  - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
   on-finalkill:
-  - IRON_INGOT:&fIron Ingot:20-30
-  - GOLD_INGOT:&eGold Ingot:2-3
+  - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
   on-shopbuy:
-  - IRON_INGOT:&fIron Ingot:20-30
-  - GOLD_INGOT:&eGold Ingot:2-3
+  - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
   on-upgrade:
-  - IRON_INGOT:&fIron Ingot:20-30
-  - GOLD_INGOT:&eGold Ingot:2-3
+  - ITEM::IRON_INGOT::&fIron Ingot:false::null::null::20-30
+  - ITEM::GOLD_INGOT::&eGold Ingot:false::null::null::2-3
 #Available placeholder: {amount}, {display-name}, {player}, {enemy} (only for combat event!).
 message:
   on-regularkill: '&aYou received x{amount} {display-name} &aby kill enemies!'
