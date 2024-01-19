@@ -53,6 +53,15 @@ message:
   on-upgrade:
     Enable: true
     Message: '&aYou received x{amount} {display-name} &aby &b&lUPGRADING!'
+  game-start:
+    Enable: true
+    Message:
+    - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    - '&f&l                       BedWars RandomItems'
+    - ''
+    - '&e&l                 RandomItems mode has been enabled!'
+    - ''
+    - '&a▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 #The chance that player can get random items when event is called (in '%')
 chance:
   on-regularkill: 60
